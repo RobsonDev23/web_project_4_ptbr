@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="pages/index.css" />
+
+    <title>EUA Afora</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__logo" src="images/around.png" alt="EUA Afora" />
+
+      <div class="header__line"></div>
+    </header>
+    <main>
+      <!-- <section class="section">
+        <img
+          class="jacques__image"
+          src="./images/image_jacques.jpg"
+          alt="jacques-cousteau"
+        />
+        <div class="profile__info">
+          <div class="profile__name">
+            <h1 class="profile__title">Jacques Cousteau</h1>
+
+            <img
+              class="profile__edit"
+              src="./images/Edit Button.png"
+              alt="edit-button"
+            />
+          </div>
+          <h2 class="profile__subtitle">Explorar</h2>
+
+          <button class="profile__button-edit">
+            <img class="profile__button" src="./images/button submit.png" />
+          </button>
+
+          <button class="profile__button-add">
+            <img class="profile__add" src="./images/Vector (1).png" />
+          </button>
+        </div>
+      </section> -->
+
+      <div>
+        <section class="section">
+          <img
+            class="jacques__image"
+            src="./images/image_jacques.jpg"
+            alt="jacques-cousteau"
+          />
+
+          <div class="profile__info">
+            <div>
+              <div class="profile__name">
+                <h1 class="profile__title">Jacques Cousteau</h1>
+                <img
+                  src="./images/Edit Button.png"
+                  alt="edit button"
+                  class="profile__edit"
+                />
+              </div>
+              <h3 class="profile__subtitle">Explorar</h3>
+            </div>
+            <button id="buttonEvent" class="profile__button-add">
+              <img
+                class="profile__button"
+                src="./images/Add Button.png"
+                alt="add button"
+              />
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <article class="cards">
+        <div class="cards__container">
+          <img
+            class="cards__image"
+            src="./images/image_yosemite.jpg"
+            alt="vale de
+        yosemite"
+          />
+          <div class="cards__content">
+            <h2 class="cards__text">Vale de Yosemite</h2>
+            <img
+              class="cards__like"
+              src="./images/image_heart.jpg"
+              alt="Heart-like"
+            />
+          </div>
+        </div>
+
+        <div class="cards__container">
+          <img class="cards__image" src="./images/lago.jpg" alt="lago louise" />
+          <div class="cards__content">
+            <h2 class="cards__text">Lago Louise</h2>
+            <img
+              class="cards__like"
+              src="./images/image_heart.jpg"
+              alt="Heart-like"
+            />
+          </div>
+        </div>
+
+        <div class="cards__container">
+          <img
+            class="cards__image"
+            src="./images/montanhas.jpg"
+            alt="montanhas"
+          />
+          <div class="cards__content">
+            <h2 class="cards__text">Montanhas Care</h2>
+            <img
+              class="cards__like"
+              src="./images/image_heart.jpg"
+              alt="Heart-like"
+            />
+          </div>
+        </div>
+        <div class="cards__container">
+          <img
+            class="cards__image"
+            src="./images/latemar.jpg"
+            alt="montanhas"
+          />
+          <div class="cards__content">
+            <h2 class="cards__text">Latemar</h2>
+            <img
+              class="cards__like"
+              src="./images/image_heart.jpg"
+              alt="Heart-like"
+            />
+          </div>
+        </div>
+        <div class="cards__container">
+          <img
+            class="cards__image"
+            src="./images/vanoise.jpg"
+            alt="montanhas"
+          />
+          <div class="cards__content">
+            <h2 class="cards__text">Vanoise National</h2>
+            <img
+              class="cards__like"
+              src="./images/image_heart.jpg"
+              alt="Heart-like"
+            />
+          </div>
+        </div>
+        <div class="cards__container">
+          <img class="cards__image" src="./images/braies.jpg" alt="montanhas" />
+          <div class="cards__content">
+            <h2 class="cards__text">Lago de Braies</h2>
+            <img
+              class="cards__like"
+              src="./images/image_heart.jpg"
+              alt="Heart-like"
+            />
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="footer">
+      <p class="footer__copy">&copy; 2022. Around The U.S.</p>
+    </footer>
+    <div class="overlay">
+      <div class="modal">
+        <img
+          src="./images/Close Icon.png"
+          alt="close icon"
+          class="modal__close"
+        />
+        <h2 class="modal__title">Editar perfil</h2>
+        <form class="modal__form">
+          <fieldset class="modal__box">
+            <input
+              type="text"
+              id="name"
+              class="modal__subtitle"
+              placeholder="Nome"
+              required
+            />
+            <input
+              type="text"
+              id="job"
+              class="modal__subtitle"
+              placeholder="Sobre mim"
+              required
+            />
+          </fieldset>
+          <input type="submit" class="modal__salvar" value="Salvar" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

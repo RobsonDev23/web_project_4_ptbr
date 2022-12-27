@@ -1,0 +1,19 @@
+    .section {
+    display: grid;
+    padding-top: 40px;
+    align-items: center;
+    grid-template-columns: 0.13fr 1fr;
+    
+     
+    
+  
+
+}
+
+    @media screen and (max-width: 544px) {
+    .section {
+    display: flex;
+    flex-direction: column;
+ }   
+}
+

@@ -1,0 +1,10 @@
+    .profile__button {
+    cursor: pointer;    
+    }
+
+    @media screen and (max-width: 544px) {
+    .profile__button {
+    width: 282px;
+    height: 50px;    
+    }
+      }

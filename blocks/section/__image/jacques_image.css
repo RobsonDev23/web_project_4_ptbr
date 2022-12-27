@@ -1,0 +1,15 @@
+    .jacques__image {
+    margin-left: 177px;    
+    width: 120px;
+    height: 120px;
+    margin-right: 30px;    
+    border-radius: 50%;
+   
+}
+
+    @media screen and (max-width: 544px) {
+    .jacques__image {
+    align-items: center;
+    margin:  0 30px 0;
+    }
+}

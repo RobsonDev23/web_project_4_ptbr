@@ -1,0 +1,11 @@
+  .cards__container {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  }
+
+  @media screen and (max-width: 544px) {
+    .cards__container {
+     margin: auto; 
+    } 
+  }
