@@ -1,5 +1,5 @@
 .modal {
-  position: relative;
+    position: relative;
     width: 430px;
     height: 330px;
     background-color: #ffffff;
@@ -10,9 +10,9 @@
   
     @media screen and (max-width: 544px) {
     .modal {
-/*     
+    
     width: 282px;
-    height: 322px; */
+    height: 322px;
    
       }
     }
