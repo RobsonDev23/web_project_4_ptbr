@@ -15,34 +15,6 @@
       <div class="header__line"></div>
     </header>
     <main>
-      <!-- <section class="section">
-        <img
-          class="jacques__image"
-          src="./images/image_jacques.jpg"
-          alt="jacques-cousteau"
-        />
-        <div class="profile__info">
-          <div class="profile__name">
-            <h1 class="profile__title">Jacques Cousteau</h1>
-
-            <img
-              class="profile__edit"
-              src="./images/Edit Button.png"
-              alt="edit-button"
-            />
-          </div>
-          <h2 class="profile__subtitle">Explorar</h2>
-
-          <button class="profile__button-edit">
-            <img class="profile__button" src="./images/button submit.png" />
-          </button>
-
-          <button class="profile__button-add">
-            <img class="profile__add" src="./images/Vector (1).png" />
-          </button>
-        </div>
-      </section> -->
-
       <div>
         <section class="section">
           <img
@@ -165,7 +137,7 @@
     <footer class="footer">
       <p class="footer__copy">&copy; 2022. Around The U.S.</p>
     </footer>
-    <div class="overlay">
+    <div class="overlay" id="modalContainer">
       <div class="modal">
         <img
           src="./images/Close Icon.png"
@@ -178,14 +150,14 @@
             <input
               type="text"
               id="name"
-              class="modal__subtitle"
+              class="modal__name"
               placeholder="Nome"
               required
             />
             <input
               type="text"
-              id="job"
-              class="modal__subtitle"
+              id="about"
+              class="modal__about"
               placeholder="Sobre mim"
               required
             />
@@ -194,5 +166,6 @@
         </form>
       </div>
     </div>
+    <script src="./script/script.js"></script>
   </body>
 </html>

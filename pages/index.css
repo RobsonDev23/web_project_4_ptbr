@@ -43,11 +43,12 @@
             /* Bloco Modal */
 @import url(../blocks/modal/modal.css);
 @import url(../blocks/modal/__title/modal__title.css);
-@import url(../blocks/modal/__subtitle/modal__subtitle.css);
+@import url(../blocks/modal/__about/modal__about.css);
 @import url(../blocks/modal/__name/modal__name.css);
 @import url(../blocks/modal/__close/modal__close.css);
 @import url(../blocks/modal/__salvar/modal__salvar.css);
 @import url(../blocks/modal/__box/modal__box.css);
 @import url(../blocks/modal/__form/modal__form.css);            
+
 
 
