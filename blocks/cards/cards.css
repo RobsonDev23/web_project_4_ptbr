@@ -1,16 +1,14 @@
 .cards {
-    margin: 46px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    line-height: 0;
-    max-width: 880px;
-    grid-gap: 20px 17px;
+  margin: 46px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 0;
+  max-width: 880px;
+  grid-gap: 20px 17px;
 }
 
-    @media screen and (max-width: 544px) {
-    .cards {
-    grid-template-columns: 1fr;  
-    } 
-      
-    
+@media screen and (max-width: 544px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }

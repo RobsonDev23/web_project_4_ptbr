@@ -1,6 +1,4 @@
-    .profile__add {
-    position: absolute;
-    padding: 15px 60px 15px;
-    }
-
-   
+.profile__add {
+  position: absolute;
+  padding: 15px 60px 15px;
+}
