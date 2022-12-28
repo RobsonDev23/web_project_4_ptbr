@@ -1,12 +1,11 @@
 Projeto 4: EUA Afora
-Visão geral
-Figma
-Imagens
-Figma
 
-Link para o projeto no Figma
-Imagens
+Esse Projeto nós estamos desenvolvendo uma página interativa onde o usuário poderá adicionar, remover ou curtir fotos.
 
-A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los aqui, para que seu projeto carregue mais rápido.
+Técnologias usadas:
 
-Divirta-se com JavaScript!
+HTML CSS E Java Script.
+
+Link do Projeto:
+
+https://robsondev23.github.io/web_project_4_ptbr/
