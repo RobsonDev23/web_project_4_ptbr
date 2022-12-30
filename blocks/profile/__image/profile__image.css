@@ -1,4 +1,4 @@
-.jacques__image {
+.profile__image {
   margin-left: 177px;
   width: 120px;
   height: 120px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 544px) {
-  .jacques__image {
+  .profile__image {
     align-items: center;
     margin: 0 30px 0;
   }

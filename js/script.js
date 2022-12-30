@@ -31,6 +31,6 @@ function handleProfileFormSubmit(evt) {
   const aboutValue = aboutInput.value;
 
   title.textContent = nameValue;
-  text.textContent = aboutValue;
+  subtitle.textContent = aboutValue;
 }
 formElement.addEventListener("submit", handleProfileFormSubmit);

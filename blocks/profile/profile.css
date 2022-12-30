@@ -1,4 +1,4 @@
-.section {
+.profile {
   display: grid;
   padding-top: 40px;
   align-items: center;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 544px) {
-  .section {
+  .profile {
     display: flex;
     flex-direction: column;
   }
